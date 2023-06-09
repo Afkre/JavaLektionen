@@ -14,10 +14,14 @@ public class Main {
         programmierSprachen.add("JavaScript");
         programmierSprachen.add("C#");
         
-    for(int i=0; i<programmierSprachen.size(); i++){
+    /*for(int i=0; i<programmierSprachen.size(); i++){
         System.out.println(programmierSprachen.get(i));
-    }
+    }*/
     
+    for(String s: programmierSprachen){
+        System.out.println(s);
+    }
+
     }
     
     

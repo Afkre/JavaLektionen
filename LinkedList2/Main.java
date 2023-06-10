@@ -29,7 +29,7 @@ public class Main {
             
             if (vergleichen == 0) {
                 // Zwei Werte sing gleich
-                System.out.println("Dieser Element steht bereits auf deiner Liste....");
+                System.out.println("Dieser Element steht bereits auf Ihrer Liste....");
                 
                 return;
                

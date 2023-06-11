@@ -16,8 +16,7 @@ public class Main {
             
             System.out.println(iterator.next());
                 
-        }
-        
+        }        
       
     }
     public static void add_sortiert_einfügen(LinkedList<String> haltestelle,String neue){
@@ -45,20 +44,14 @@ public class Main {
                 
                 return;
                 
-            }
-           
+            }           
         }
-        iterator.add(neue);
-        
-        
-        
-        
+        iterator.add(neue);       
     }
     public static void main(String[] args) {
         
         LinkedList<String> haltestelle = new LinkedList<String>();
-        
-        
+                
         add_sortiert_einfügen(haltestelle, "Post");
         add_sortiert_einfügen(haltestelle, "Markt");
         add_sortiert_einfügen(haltestelle, "Haus");
@@ -87,10 +80,8 @@ public class Main {
         //listeyi_bastir(haltestelle); */
         
         
-        drucklist(haltestelle);
-        
+        drucklist(haltestelle);        
     
     }
-
 
 }
